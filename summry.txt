@@ -1,0 +1,31 @@
+Schema Definition: You defined a schema for the dataset, which includes various fields like "new&used," "name," "money," "Exterior color," "Interior color," etc.
+
+Data Loading: You loaded the CSV file New_York_cars.csv into a DataFrame using the defined schema.
+
+Data Display: You displayed the first 5 rows of the DataFrame to get a glimpse of the data.
+
+Descriptive Statistics: You generated descriptive statistics for the DataFrame to understand the distribution and summary statistics of the data.
+
+Handling Missing Data:
+
+You counted the number of missing values in each column.
+
+You created a cleaned DataFrame by dropping rows with missing values.
+
+You created another DataFrame by filling specific missing values with default values like "black" for "Exterior color" and "None Reported" for "Accidents or damage."
+
+Filtering Data: You filtered the cars based on mileage greater than 302 and displayed the first 5 rows of the filtered DataFrame.
+
+Grouping and Aggregation:
+
+You grouped the cars by "Model" and calculated the average money value for each model.
+
+You also calculated the total revenue by car model.
+
+Sorting Data: You sorted the DataFrame based on the "money" column in descending order and displayed the sorted DataFrame.
+
+Selecting Specific Columns: You selected specific columns ("brand," "model," "money") from the DataFrame and displayed the first 5 rows.
+
+Adding New Column: You added a new column "is_expensive" to indicate if the car's price is greater than 30,000.
+
+Saving Data: You saved the cleaned DataFrame to a CSV file named "to_save_file.csv" with headers.
